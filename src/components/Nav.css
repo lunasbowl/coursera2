@@ -1,0 +1,20 @@
+.nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    gap: 20px; /* Gap between items */
+    background-color: #333; /* Background color for the navigation */
+    padding: 10px; /* Padding for the navigation */
+  }
+  
+  .nav-item {
+    text-decoration: none;
+    color: white; /* Text color for navigation links */
+    text-align: center;
+    padding: 10px 20px; /* Padding for each link */
+    border-radius: 5px; /* Rounded corners for links */
+  }
+  
+  .nav-item:hover {
+    background-color: #555; /* Background color when hovering over a link */
+  }
+  

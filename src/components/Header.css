@@ -1,0 +1,16 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: #ffffff; /* Background color for the header */
+    padding: 20px; /* Padding for the header */
+  }
+  
+  img {
+    width: 50%;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
