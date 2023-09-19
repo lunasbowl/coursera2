@@ -51,4 +51,10 @@ form {
   button:hover {
     background-color: #0056b3;
   }
+
+  .error-message {
+    color: red; /* Text color for error messages */
+    font-size: 14px; /* Font size for error messages */
+    margin-top: 5px; /* Spacing between input and error message */
+  }
   

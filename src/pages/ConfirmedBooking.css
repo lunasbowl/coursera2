@@ -1,0 +1,20 @@
+
+.confirmed-booking {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 300px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.confirmed-booking h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.confirmed-booking p {
+    font-size: 16px;
+}
