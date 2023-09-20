@@ -103,8 +103,8 @@ function BookingPage () {
                         <label>Number of Guests</label>
                         <input 
                             type="number"
-                            placeholder="1"
-                            min="1"
+                            placeholder="2"
+                            min="2"
                             max="10"
                             value={numberGuests}
                             onChange={(e) => setNumberGuests(e.target.value)}

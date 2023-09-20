@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import HomePage from "./pages/HomePage";
 import BookingPage from "./pages/BookingPage";
+import BackToTopButton from './components/BackToTopButton';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/booking" element={<BookingPage />}></Route>
       </Routes>
       <Footer />
+      <BackToTopButton />
     </>
   );
 }

@@ -1,0 +1,44 @@
+/* Card.css */
+
+.meal-card {
+    display: grid;
+    grid-template-rows: 1fr auto auto; /* Three rows: image, name/price, description */
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #fff;
+    margin: 10px;
+    width: 300px; /* Adjust the width as needed */
+    grid-gap: 10px; /* Gap between grid items */
+  }
+  
+  .meal-card-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .meal-card-name-price {
+    display: grid;
+    grid-template-columns: 1fr auto; /* Two columns: name, price */
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .meal-card-name-price h3 {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  .meal-card-name-price span {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .meal-card-description p {
+    margin: 0;
+    font-size: 1rem;
+    color: #666;
+  }
+  

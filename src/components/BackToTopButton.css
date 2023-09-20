@@ -1,0 +1,23 @@
+/* Example CSS for the button */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #F4CE14;
+    font-family: 'Markazi Text', serif;
+    font-size: 1.5rem;
+    color: #495E57;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Add hover and active styles as needed */
+  .back-to-top:hover {
+    background-color: #f4ebb2;
+  }
+  
