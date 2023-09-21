@@ -1,18 +1,28 @@
 
 
 .week-specials {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjust the column width as needed */
-    gap: 20px;
-    margin: 20px;
-  }
+  display: grid;
+  gap: 20px;
+  margin: 20px;
+  max-width: 1200px;
+}
   
-  .week-specials h2 {
-    text-align: center;
-    font-size: 1.5rem;
-    margin: 0;
-    padding: 10px 0;
-  }
+.week-specials h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 10px 0;
+}
   
-  /* Add more styling as needed for individual cards within the grid */
+@media (min-width: 768px) {
+  .week-specials {
+      grid-template-columns: repeat(2, 1fr); /* Show 2 items per row on screens wider than 768px */
+  }
+}
+
+@media (min-width: 1024px) {
+  .week-specials {
+      grid-template-columns: repeat(3, 1fr); /* Show 3 items per row on screens wider than 1024px */
+  }
+}
   

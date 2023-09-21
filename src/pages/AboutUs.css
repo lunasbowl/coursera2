@@ -1,0 +1,52 @@
+/* AboutUs.css */
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .about-text {
+    max-width: 800px; /* Set the maximum width of the text content */
+    margin: auto;
+  }
+  
+  .about-little-lemon {
+    font-size: 2.5rem;
+    color: #495E57; 
+  }
+  
+  .about-chicago {
+    font-size: 1.5rem;
+    color: #777; 
+  }
+  
+  p {
+    margin-top: 20px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #111; 
+  }
+  
+  .about-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px; /* Add some spacing between text and images */
+    border-radius: 16px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    /* Apply styles for screens with a maximum width of 768px (typical mobile devices) */
+    .about-text {
+      padding: 0 10px; /* Add some horizontal padding to text for better readability on mobile */
+    }
+    .about-little-lemon {
+      font-size: 2rem;
+    }
+    .about-chicago {
+      font-size: 1.3rem;
+    }
+  }
+  

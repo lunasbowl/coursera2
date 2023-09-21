@@ -33,9 +33,12 @@ function Special () {
             <div>
                 <h2>This Week Specials!</h2>
             </div>
-            {meals.map((meal, index) =>
+            <div>
+                {meals.map((meal, index) =>
                 <Card key={index} meal={meal} />
-            )}
+                )}
+            </div>
+
         </section>
     );
 };

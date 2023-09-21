@@ -7,11 +7,9 @@ function Card ({ meal }) {
             <div className="meal-card-image">
                 <img src={meal.image} alt={meal.name} />
             </div>
-            <div className="meal-card-name-price">
+            <div className="meal-card-content">
                 <h3>{meal.name}</h3>
                 <span>{meal.price}</span>
-            </div>
-            <div className="meal-card-description">
                 <p>{meal.description}</p>
             </div>
         </article>
