@@ -2,27 +2,46 @@
 
 .week-specials {
   display: grid;
-  gap: 20px;
-  margin: 20px;
-  max-width: 1200px;
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-template-rows: auto auto;
+  /* gap: 1.25rem; */
+}
+
+.week-specials-header {
+  grid-column: 1 / 4;
+  grid-row: 1;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-bottom: 1.875rem;
 }
   
 .week-specials h2 {
-  text-align: center;
-  font-size: 1.5rem;
-  margin: 0;
-  padding: 10px 0;
+  line-height: 1;
+  font-family: "Markazi Text";
+  font-weight: normal;
+  font-size: 2.5rem;
 }
   
-@media (min-width: 768px) {
+@media (min-width: 692px) {
   .week-specials {
-      grid-template-columns: repeat(2, 1fr); /* Show 2 items per row on screens wider than 768px */
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto auto auto;
+  }
+
+  .week-specials-header {
+    grid-column: 1 / 3;
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 960px) {
   .week-specials {
-      grid-template-columns: repeat(3, 1fr); /* Show 3 items per row on screens wider than 1024px */
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(4,auto);
+  }
+
+  .week-specials-header {
+    grid-column: 1 / 2;
   }
 }
   
